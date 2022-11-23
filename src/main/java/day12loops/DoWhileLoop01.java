@@ -32,7 +32,7 @@ public class DoWhileLoop01 {
         String decimalPart = str.split("\\.")[1];
 
 
-        int decimalInt = Integer.valueOf(decimalPart);
+        int decimalInt = Integer.parseInt(decimalPart);
         System.out.println(decimalInt);//5673
 
         int sum = 0;

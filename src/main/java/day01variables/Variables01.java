@@ -2,7 +2,7 @@ package day01variables;
 
 public class Variables01 {
     //Variable nasil olusturulur?
-    //1)Access Modifier 2)Data Type 3) Variable Name 4)=(Assignment Opertor)  5)Value  6);(semicolon)
+    //1)Access Modifier 2)Data Type 3) Variable Name 4)=(Assignment Operator)  5)Value  6);(semicolon)
     //Java'da ";" ingilizcedeki . gibidir
     //ingillizcede cümle(sentence) deriz.Javada statement deriz.
     //"=" sembolü Assignment Operator (Atama Operatörü)
@@ -12,7 +12,7 @@ public class Variables01 {
      bellekte (memory) ayrilmis olan alanin (reserved area) adidir.
      Variable icinde deger saklayan bir konteynirdir
    //bir variable oluştururken içerisine koyacağimiz datanın değer alabileceği değerlere uygun bir data türü seçmeliyiz
-   //örneğin bir şehrin nufusundan bahsediyorsak variablemızın data türü boolString,ean,char veya double alamayız
+   //örneğin bir şehrin nufusundan bahsediyorsak variablemızın data türü String,boolean,char veya double alamayız
    //geriye kalan tamsayı  turlerınden şehrin nufusunu içine alabilecek büyüklükte bir data turu seceebiliriz
    //kurs boyunca genelde tam sayılar için int ondalıklı sayılar için double kullanacagız
     */
@@ -25,7 +25,7 @@ public class Variables01 {
     /*                    Primitive Data Types
     1)int:    Integer'in kisaltmasi.Integer tam sayi demektir.
               32 bit kullanir memoride.
-              Matematikte tam syilarin basi ve sonu yoktur.
+              Matematikte tam sayilarin basi ve sonu yoktur.
               Fakat Java'da tamsayilarin basi ve sonu vardir-
               En Kücük int=-2,147,482,648
               En büyük int= 2,147,482,647

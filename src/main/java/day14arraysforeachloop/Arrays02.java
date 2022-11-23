@@ -24,7 +24,8 @@ public class Arrays02 {
 ////
 //
 //
-//        //Example 2: Bir Array'in icinde herhangi bir elemanin olup olmadigini kontrol eden ve kac kere tekrarlandigini gosteren kodu yaziniz
+//        //Example 2: Bir Array'in icinde herhangi bir elemanin olup olmadigini kontrol eden ve
+//        kac kere tekrarlandigini gosteren kodu yaziniz
 //        //           [ 2, 1, 2, -3, 2] ==> Kullanici 2'yi sordu ==> 2 elemani var ve 3 kere tekrarlandi
 //        //                             ==> Kullanici 6'yi sordu ==> 6 array'de yok
 //        int arr[] = {5, 1, 5, -3};
@@ -41,23 +42,23 @@ public class Arrays02 {
 //        }else{
 //            System.out.println(eleman + " array'de yok");
 //        }
-//
+
         //Example 3: Size verilen bir cumledeki en uzun kelimeyi bulan kodu yaziniz
         //           "Java kolaydir calisana, ne kolay ki calismayana." ==> calismayana
-        String sentence = "Java kolaydir calisana, ne kolay ki calismayana.";
-        System.out.println(sentence);
-
-        sentence = sentence.replaceAll("\\p{Punct}", "");
-        System.out.println(sentence);
-
-        String words[] = sentence.split(" ");
-
-
-         Arrays.sort(words,Comparator.comparingInt(String::length));
-         System.out.println(Arrays.toString(words));
-
-        System.out.println(words[words.length-1]);
-
+//        String sentence = "Java kolaydir calisana, ne kolay ki calismayana.";
+//        System.out.println(sentence);
+//
+//        sentence = sentence.replaceAll("\\p{Punct}", "");
+//        System.out.println(sentence);
+//
+//        String words[] = sentence.split(" ");
+//
+//
+//         Arrays.sort(words,Comparator.comparingInt(String::length));
+//         System.out.println(Arrays.toString(words));
+//
+//        System.out.println(words[words.length-1]);
+//
         String sentence1 ="Icerisindeki alti harften buyuk kelimeleri bulan kodu yaziyorum";
         System.out.println(sentence1);
         sentence1 = sentence1.replaceAll("\\p{Punct}", "");
@@ -68,12 +69,15 @@ public class Arrays02 {
 
         String word2[] = new String[words1.length];
 
+
         for(int i=0; i<words1.length; i++){
             if(words1[i].length()>6) {
 
+                word2[i]=words1[i];
 
 
-          word2[i]=words1[i];
+
+
 
             }
 

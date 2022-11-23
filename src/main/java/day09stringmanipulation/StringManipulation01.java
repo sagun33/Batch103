@@ -49,7 +49,7 @@ public class StringManipulation01 {
 //        // length()==0 demek isEmpty() true verir demektir.
 //        //Bir String'in bos olup olmadigini anlamak icin "length()==0" kullanmayin, "isEmpty()" kullanin
 //        boolean bosMu = v.isEmpty();
-//        System.out.println(bosMu);
+//        System.out.println(bosMu);//true
 //
 ////        String x = " ";
 ////        //isBlank() hem "bos String" icin hem de "sadece space" iceren String'ler icin true return eder.
@@ -67,7 +67,7 @@ public class StringManipulation01 {
 //            System.out.println(ilk);
 //        }
         String m="Hello everyone!";
-        int e=m.lastIndexOf("e",10);
+        int e=m.indexOf("e",10);
         System.out.println(e);
 
 

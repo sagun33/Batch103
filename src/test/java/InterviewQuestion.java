@@ -243,19 +243,25 @@ public class InterviewQuestion {
 // Verilen 3 elemanli bir array'in tüm elemanlarini bir soldaki konuma tasiyacak bir program yazin.
 // Örnek, array [1,2,3] ise output [2,3,1] olacak.
 
-//
-//        int[] arr = {1, 2, 3};
-//
-//        int []brr=new int[arr.length];
-//        for (int i = 0; i < arr.length; i++) {
-//
-//            }System.out.println(brr[i]);
-//
-//    }
-        // Question 14
+
+        int arr [] = {1,2,3};
+        int yeniarr [] = new int[arr.length];
+
+        int index = 0;
+        for (int i=1; i<arr.length; i++){
+            yeniarr[index] = arr[i];
+            index++;
+        }
+        yeniarr[index]=arr[0];
+        System.out.println(Arrays.toString(yeniarr));
+
+    }
+
+
+    // Question 14
 // Array
 // Verilen bir array'in tüm elemanlarini toplayan bir program yazin.
-        
+
 //        int [] arr={1,2,3};
 //        int sum=0;
 //        for (int w:arr){
@@ -265,62 +271,60 @@ public class InterviewQuestion {
 //        System.out.println("sum = " + sum);
 //
 //
-        // Question 15
+    // Question 15
 // Multi Dimensional Array
-// Asagidaki multi dimentional array'in tüm elemanlarinin carpimini ekrana yazdiran bir methode yazin.
-// { {1,2,3} , {4,5,6} }
+ //Asagidaki multi dimentional array'in tüm elemanlarinin carpimini ekrana yazdiran bir methode yazin.
+ //{ {1,2,3} , {4,5,6} }
 
-        int [][] arr={ {1,2,3} , {4,5,6} };
-        int mult=1;
-        for (int [] w:arr){
-            for (int k:w){
-                mult*=k;
-            }
-        }
-        System.out.println("mult = " + mult);
+//        int [][] arr={ {1,2,3} , {4,5,6} };
+//        int mult=1;
+//        for (int [] w:arr){
+//            for (int k:w){
+//                mult*=k;
+//            }
+//        }
+//        System.out.println("mult = " + mult);
 
-        // Question 16
+    // Question 16
 // LocalDate
 // Bugünkü tarihi yazniz. Bugünden 2 sene, 2 ay, 2 gün ekleyip yazdiriniz.
-        LocalDate bugunkuTarih=LocalDate.now();
-        System.out.println("bugunku Tarih = " + bugunkuTarih);
-        LocalDate ikiYilIkiAyIkiGunSonra=LocalDate.now().plusYears(2).plusMonths(2).plusDays(2);
-        System.out.println("iki Yil Iki AyI ki Gun Sonra = " + ikiYilIkiAyIkiGunSonra);
-
-        // Question 17
+//        LocalDate bugunkuTarih=LocalDate.now();
+//        System.out.println("bugunku Tarih = " + bugunkuTarih);
+//        LocalDate ikiYilIkiAyIkiGunSonra=LocalDate.now().plusYears(2).plusMonths(2).plusDays(2);
+//        System.out.println("iki Yil Iki AyI ki Gun Sonra = " + ikiYilIkiAyIkiGunSonra);
+//
+//        // Question 17
 // LocalTime
 // Saati yaziniz. Sonra saate 4 saat, 3 dakika, 3 saniye ekleyiniz.
 // Türkiye'nin saatini yaziniz.
 
-        LocalTime suankiSaat=LocalTime.now();
-        System.out.println("suanki Saat = " + suankiSaat);
-        LocalTime dortSaatUcDakikaUcSaniye=LocalTime.now().plusHours(4).plusMinutes(3).plusSeconds(3);
-        System.out.println("dort Saat Uc Dakika Uc Saniye = " + dortSaatUcDakikaUcSaniye);
+//        LocalTime suankiSaat=LocalTime.now();
+//        System.out.println("suanki Saat = " + suankiSaat);
+//        LocalTime dortSaatUcDakikaUcSaniye=LocalTime.now().plusHours(4).plusMinutes(3).plusSeconds(3);
+//        System.out.println("dort Saat Uc Dakika Uc Saniye = " + dortSaatUcDakikaUcSaniye);
 
-        // Question 18
+    // Question 18
 // LocalDateTime
 //Bugünün tarihini ve saatini yaziniz.
-        LocalDateTime bugununTarihiVeSaati=LocalDateTime.now();
-        System.out.println("bugunun Tarihi Ve Saati = " + bugununTarihiVeSaati);
+//        LocalDateTime bugununTarihiVeSaati=LocalDateTime.now();
+//        System.out.println("bugunun Tarihi Ve Saati = " + bugununTarihiVeSaati);
 
-        // Question 19
+    // Question 19
 // DateTimeFormatter
 // M = Month   m=minutes   MMM=first 3 character   MM=2 character of month
 // M=1 character Month   MMM=Full Name of Month
 // hh= am/pm    HH=24 format
 // Tarihi söyle yazdiriniz: 31/10/2022
 
-      
-        LocalDate tarih = LocalDate.of(2022,10,31);
-        System.out.println(tarih);
 
-        DateTimeFormatter yeniVersiyon = DateTimeFormatter.ofPattern("dd/M/yyyy");
-        String tarih1 = yeniVersiyon.format(tarih);
-        System.out.println("tarih1 = " + tarih1);
-
-
+//        LocalDate tarih = LocalDate.of(2022,10,31);
+//        System.out.println(tarih);
+//
+//        DateTimeFormatter yeniVersiyon = DateTimeFormatter.ofPattern("dd/M/yyyy");
+//        String tarih1 = yeniVersiyon.format(tarih);
+//        System.out.println("tarih1 = " + tarih1);
 
 
-    }
 }
+
 

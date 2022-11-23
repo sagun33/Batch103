@@ -26,7 +26,8 @@ public class ArrayLists02 {
         }
         System.out.println(yeni);// [2, 3, 5]
 
-        //Example 2: Kullanicidan bir harf aliniz, harf sizdeki List'in icinde varsa o harfi "Bulundu" ya ceviriniz yoksa o harfi List'e ekleyiniz
+        //Example 2: Kullanicidan bir harf aliniz, harf sizdeki List'in icinde varsa o harfi
+        // "Bulundu" ya ceviriniz yoksa o harfi List'e ekleyiniz
         //           [A, K, R, S]  ==> R  ==> [A, K, Bulundu, S]
         //           [A, K, R, S]  ==> X  ==> [A, K, R, S, X]
         Scanner input = new Scanner(System.in);
@@ -45,11 +46,11 @@ public class ArrayLists02 {
 
             if (c.contains(harf)) {
                 c.set(c.indexOf(harf), "Bulundu");
-            } else if(!harf.equals("Q")){
+            } else if(!harf.equalsIgnoreCase("Q")){
                 c.add(harf);
             }
             System.out.println(c);
-        }while(!harf.equals("Q"));
+        }while(!harf.equalsIgnoreCase("Q"));
     }
 }
 

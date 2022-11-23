@@ -1,2 +1,7 @@
-package day28abstraction;public interface Hood {
+package day28abstraction;
+
+public interface Hood {
+
+    void steel();
+
 }

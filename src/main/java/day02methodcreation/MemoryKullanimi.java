@@ -18,7 +18,7 @@ public class MemoryKullanimi {
     o yüzden Adresi bulunamayinca Javanin Cöp toplayicilari(Garbage Collector)
     Heap Memorideki Non-Primitive leri toplar.
 
-     2.Stack(Kücük olan):icine byte,short,int,float,double,boolean,char datalar
+     2.Stack Memory (Kücük olan):icine byte,short,int,float,double,boolean,char datalar
 
      yani Primitive Datalar konur.
      Su ana kadar ögrendigimiz ve ögrenecegimiz

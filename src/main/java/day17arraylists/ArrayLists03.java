@@ -36,7 +36,7 @@ public class ArrayLists03 {
 
         for (int i = 1; i < a.size(); i++) {
 
-            if (minFark == a.get(i) - a.get(i - 1)) {
+            if (minFark == a.get(i) - a.get(i-1)) {
 
                 sayi1 = a.get(i);
                 sayi2 = a.get(i - 1);

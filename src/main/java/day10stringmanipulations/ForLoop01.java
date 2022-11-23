@@ -17,7 +17,7 @@ public class ForLoop01 {
         //i)for-loop
         //Example 2: Ekrana 5 kere "Hi" yazdiriniz.
 
-        //  Baslangic degeri Loop hangi sart altinda calisacak Increment(Artirma) veya Decrement(Azaltma)
+        //  Baslangic degeri  Loop hangi sart altinda calisacak Increment(Artirma) veya Decrement(Azaltma)
         for( int i = 1      ;           i<6                   ;               i++                ){
             System.out.println("Hi");
         }
@@ -30,7 +30,7 @@ public class ForLoop01 {
         System.out.println();
 
         //Example 4: 14 den 5 e kadar tum tamsayilari ekrana yazdiran kodu yaziniz
-        for(int i=8;  i>4; i--){
+        for(int i=14;  i>4; i--){
             System.out.print(i + " ");
         }
 
@@ -76,7 +76,7 @@ public class ForLoop01 {
         //           "Hellooo Ali" ==> He Ai
         String s = "Hellooo Ali";
         for(int i=0; i<s.length(); i++){
-            char c = s.charAt(i);
+            char c = s.charAt(i);//i indexindeki Karakteri alip c konteynerine koyuyor.
             if(s.indexOf(c)==s.lastIndexOf(c)){
                 System.out.print(c);//He Ai
             }

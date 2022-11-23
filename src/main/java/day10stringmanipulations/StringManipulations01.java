@@ -43,7 +43,7 @@ public class StringManipulations01 {
             System.out.println(k);
 
             //a.repeat(5); kodu "a" String'ini yanyana 5 kere yapistirir.
-            //repeat(0); empty String retrun eder.
+            //repeat(0); empty String return eder.
             //Java Document'e ulasmak icin Windows==>ctrl e basili tutun
             // Mac==>Command e basili tutun ve mouse ile method ismine tiklayin.
             String n = a.repeat(5);

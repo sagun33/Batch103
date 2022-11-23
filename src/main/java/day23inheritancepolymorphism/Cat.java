@@ -54,7 +54,18 @@ public class Cat extends Mammal{
          9-HAS-A ==> Hayvanlar kedileri içerir ama kediler tüm hayvanları içermez.
          10)"final" method'lar Override edilemezler, cunku "Overriding" de method body degistirilir fakat
     "final" method body degistirilmesine musaade etmez.
+    11)Poliymorphism =Overloading+Overriding
+    Poliymorphism nedir diye sorarlarsa Overloading ve Overriding i anlatin.
+    12) Overloading ile Overriding arasindaki farklar nelerdir?
+                i)Overloading icin "inheritance" gerekmez fakat Overriding icin gerekir.
+                ii)"private" method'lar Overload edilebilir, Override edilemezler.
+                iii)"final" method'lar Overload edilebilir, Override edilemezler.
+                iv)"Overloading" "static polymorphism" olarak, "Overriding" "dynamic polymorphism" olarak adlandirilir.
+                   Cunku "static" method'lar Overload edilebilir, Override edilemezler.
+                v) "Overloading" de method signature degisir ama "Overriding" method signature a dokunulmaz.
     */
+
+
 }
 
 

@@ -1,6 +1,7 @@
 package day15arraysmultidimensionalarrays;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Arrays01 {
     public static void main(String[] args) {
@@ -13,7 +14,8 @@ public class Arrays01 {
                 //                       binarySearch() Method'u aradiginiz eleman Array'de varsa o elemanin indexini return eder.
 
                 //                       binarySearch() Method'u aradiginiz eleman Array'de yoksa "- a" seklinde bir negatif sayi alirsiniz.
-                //                       Bu sayidaki "-" isaretinin anlami bu eleman Array'de yok dmeektir, "a" nin anlami olsaydi kacinci sirada olurdu demektir.
+                //                       Bu sayidaki "-" isaretinin anlami bu eleman Array'de yok dmeektir, "a" nin anlami olsaydi
+        //                       kacinci sirada olurdu demektir.
 
                 //                       binarySearch() Method'u tekrarlayan elemanlar icin kullanilmaz.
                 int arr[] = {12, 31, 43, 14 };

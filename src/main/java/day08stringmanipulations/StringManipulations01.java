@@ -1,3 +1,4 @@
+package day08stringmanipulations;
 
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class StringManipulations01 {
         //Example 1: Kullanıcıdan aldığınız ismin ilk ve son harfini ekrana yazdırınız
         //           Ramazan ==> Rn
 
-//        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 //        System.out.println("Lutfen isminizi giriniz...");
 //        String isim = input.next();
 //
@@ -40,12 +41,12 @@ public class StringManipulations01 {
         //Example 3:ilk isim ve soy ismi iceren isimlerden ilk ve soyisimlerin basharflerini ekrana yazdiriniz.
         // Ali can ==>AC  Tahsin Yurdakul==>TY
 
-//        System.out.println("ilk ve soyisminizi giriniz");
-//        String tamIsim = input.nextLine();
-//        String a = tamIsim.substring(0,1);
-//        String b = tamIsim.split(" ")[1].substring(0,1);
-//        System.out.println(a+b);
-//
+        System.out.println("ilk ve soyisminizi giriniz");
+        String tamIsim = input.nextLine();
+        String a = tamIsim.substring(0,1);
+        String b = tamIsim.split(" ")[1].substring(0,1);
+        System.out.println(a+b);
+
 
 
 

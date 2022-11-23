@@ -12,7 +12,8 @@ public class ArrayLists01 {
             1)Array olustururken Array'in icine kac tane eleman koymamiz gerektigini soylemeliyiz, soyledigimiz eleman sayisindan
             fazla eleman koyamayiz.
               Array'ler eleman sayisinda "fixed" dirler.
-              ArrayList'leri olustururken eleman sayisi soylemeye gerek yok, cunku ArrayList'ler eleman sayisinda "flexible"(esnek) dirlar.
+              ArrayList'leri olustururken eleman sayisi soylemeye gerek yok, cunku ArrayList'ler
+               eleman sayisinda "flexible"(esnek) dirlar.
             2)Array'lerin icine "primitive" ve "reference" lar konabilir.
               ArrayList'lerin icine ise sadece "non-primitive" ler konulur.
             3)Array'ler super fast, cok hizli. Array'ler memory i cok az kullanir.
@@ -63,7 +64,7 @@ public class ArrayLists01 {
         //ArrayList'lerde herhangi bir eleman nasil secilir?
         //get() methodu istenen bir index'teki elemani verir
         int el1 = nums.get(3);
-        System.out.println(el1);//185
+        System.out.println("el1 = " + el1);
 
         //ArrayList'in bos olup olmadigini nasil anlariz?
         boolean bos1 = nums.isEmpty();

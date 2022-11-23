@@ -27,6 +27,7 @@ public class Exceptions01 {
         }catch(NumberFormatException e){
 
             System.out.println("Rakam olmayan karakter iceren String'ler Integer'a cevrilemez");
+            e.printStackTrace();
 
         }
 

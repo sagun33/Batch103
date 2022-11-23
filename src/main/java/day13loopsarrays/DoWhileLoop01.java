@@ -11,26 +11,32 @@ public class DoWhileLoop01 {
         //           Kullanici kazandikca oyun devam etmeli.
         Scanner input = new Scanner(System.in);
 //        int sayi = 0;
+//        int counter=0;
 //        do{
 //            System.out.println("Bir sayi giriniz");
 //            sayi = input.nextInt();
 //            if(sayi<100){
 //                System.out.println("Kazandiniz!");
+//                counter++;
 //            }
 //        }while(sayi<100);
-//        System.out.println("Kaybettiniz!");
+//        System.out.println(counter +" puan aldiniz ama en sonunda kaybettiniz");
+
 
         //Example 2: Kullanicidan isimler aliniz ilk harfinin buyuk harf olup olmadigini kontrol ediniz
-        do{
-            System.out.println("Isim giriniz");
-            char ilkHarf = input.next().charAt(0);
-            if(ilkHarf>='A' && ilkHarf<='Z'){
-                System.out.println("Ismi basariyla girdiniz");
-            }else{
-                System.out.println("Ismi yanlis girdiginiz icin isleminiz iptal edilmistir");
-                break;
-            }
-        }while(true);
+//        int counter=0;
+//        do{
+//            System.out.println("Isim giriniz");
+//            char ilkHarf = input.next().charAt(0);
+//            if(ilkHarf>='A' && ilkHarf<='Z'){
+//                System.out.println("Ismi basariyla girdiniz");
+//                counter++;
+//            }else{
+//                System.out.println(counter + "  kez isminizin bas harfini buyuk olarak girdiniz en sonunda " +
+//                        "Ismi yanlis girdiginiz icin isleminiz iptal edilmistir");
+//                break;
+//            }
+//        }while(true);
 
         //Infinite Loop: Sonsuz dongu
 

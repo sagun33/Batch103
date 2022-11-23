@@ -7,10 +7,10 @@ public class TypCasting01 {
     public static void main(String[] args) {
         
         byte age = 23;
-        int newAge = age;
+        int newAge = age; //Auto Widening
 
         long population=1234;
-        int newPopulation=(int) population;
+        int newPopulation=(int) population; //Explicit Narrowing
 
         System.out.println("newAge = " + newAge);
         System.out.println("newPopulation = " + newPopulation);

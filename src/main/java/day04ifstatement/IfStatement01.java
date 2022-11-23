@@ -28,7 +28,7 @@ public class IfStatement01 {
 //        int n = -123;
 //
 //        n = Math.abs(n);
-//        if (n >= 99 && n < 1000) {
+//        if (n > 99 && n < 1000) {
 //            System.out.println("Uc Basamaklidir");
 //        }
 //        //Example 4:Verilen bir sayi cift sayi ise ekrana Cift Sayi yazdiriniz

@@ -54,6 +54,8 @@ public class IfStatement04 {
                              gun.equalsIgnoreCase("Carsamba") ||
                              gun.equalsIgnoreCase("Persembe") ||
                              gun.equalsIgnoreCase("Cuma");
+        System.out.println("haftaSonu = " + haftaSonu);
+        System.out.println("haftaIci = " + haftaIci);
 
 
 

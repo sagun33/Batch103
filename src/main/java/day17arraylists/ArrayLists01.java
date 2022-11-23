@@ -29,7 +29,7 @@ public class ArrayLists01 {
         myNames.add("Tahsin");
 
         boolean sonuc1 = names.containsAll(myNames);//Bir listin icinde coklu elemanlarin var olup olmadigini kontrol eder.
-        //Hepsi varsa true, en az biri yoksa false veriri
+        //Hepsi varsa true, en az biri yoksa false verir
         System.out.println(sonuc1);
 
         List<String> a = new ArrayList<>();
@@ -85,32 +85,32 @@ public class ArrayLists01 {
         n.add('z');
 //
 //        //1.Way:
-//        int counter = 0;//Flag
-//
-//        for(int i=0; i<m.size(); i++){
-//
-//            if(m.size()!=n.size()){ //Iki ArrayList'in esit olabilmesi icin,elemanlar esit olmali
-//                counter++;
-//                System.out.println("Listler esit degildir");
-//                break;
-//            }else if(m.get(i) != n.get(i)){//ayni elemanlar ayni index'te olmali
-//                counter++;
-//                System.out.println("Listler esit degildir");
-//                break;
-//            }
-//        }
-//        if(counter==0){
-//            System.out.println("Listler esittir");
-//        }
+        int counter = 0;//Flag
 
-        //2.Yol:
-//        boolean esitmi = m.equals(n);
-//
-//        if(esitmi){
-//            System.out.println("Listler esittir");
-//        }else{
-//            System.out.println("Listler esit degildir");
-//        }
+        for(int i=0; i<m.size(); i++){
+
+            if(m.size()!=n.size()){ //Iki ArrayList'in esit olabilmesi icin,elemanlar esit olmali
+                counter++;
+                System.out.println("Listler esit degildir");
+                break;
+            }else if(m.get(i) != n.get(i)){//ayni elemanlar ayni index'te olmali
+                counter++;
+                System.out.println("Listler esit degildir");
+                break;
+            }
+        }
+        if(counter==0){
+            System.out.println("Listler esittir");
+        }
+
+       // 2.Yol:
+        boolean esitmi = m.equals(n);
+
+        if(esitmi){
+            System.out.println("Listler esittir");
+        }else{
+            System.out.println("Listler esit degildir");
+        }
 
     }
 

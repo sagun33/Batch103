@@ -1,2 +1,8 @@
-package day28abstraction;public interface Ac {
+package day28abstraction;
+
+public interface Ac {
+
+    void digital();
+
+    void climate();
 }

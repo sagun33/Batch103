@@ -1,6 +1,6 @@
 package day24statickeywordencapsulation;
 
-public class CarRunner {
+public class  CarRunner {
 
         /*
                 "static keyword" nedir?

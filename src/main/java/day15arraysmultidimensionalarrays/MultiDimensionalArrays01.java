@@ -9,7 +9,7 @@ public class MultiDimensionalArrays01 {
     public static void main(String[] args) {
 
         //Multidimensional Array nasil olusturulur?
-        int arr[][]  = new int[3][2];
+        int arr[][] = new int[3][2];
         System.out.println(Arrays.deepToString(arr));// [ [0, 0], [0, 0], [0, 0] ]
 
         //Multidimensional Array'lere eleman ekleme nasil yapilir?
@@ -58,9 +58,11 @@ public class MultiDimensionalArrays01 {
         //Toplam eleman sayisini ekrana yazdiran kodu yaziniz
         int sum = 0;
         // [ [A, B, C], [D, E, F], [G, H, I], [J, K, L] ]
-        for(String[] w : brr ){
+        for (String[] w : brr) {
             sum = sum + w.length;
+            System.out.println(Arrays.toString(w));
         }
+
         System.out.println(sum);
     }
 

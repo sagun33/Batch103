@@ -8,8 +8,8 @@ public class ForLoop01 {
         int sum = 0;
         for(int i=3;  i<7; i++){
             sum = sum + i;
-            System.out.print(sum+"  ");
-        }
+
+        }System.out.print(sum+"  ");
         //Note:  System.out.println(sum); loop'un disina yazilirsa "sum"in sadece son degerini ekrana yazdirir.
         //       System.out.println(sum); loop'un icine yazilirsa her bir loop icin "sum"in hangi degerleri aldigini yazdirir.
 //        System.out.println(sum);
@@ -21,7 +21,7 @@ public class ForLoop01 {
         int multiply = 1;
         for(int i=6; i>2; i--){
             multiply = multiply * i;
-            System.out.println(multiply);
+
         }
         System.out.println(multiply);
 
@@ -44,6 +44,7 @@ public class ForLoop01 {
 
         //Concatenation yapacaksaniz empty String ("") kullanin
         String ters = "";
+
 
         for(int i=str.length()-1; i>=0; i--){
             char c = str.charAt(i);
