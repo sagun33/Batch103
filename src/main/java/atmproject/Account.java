@@ -42,7 +42,7 @@ public class Account {
 
 
     //para cekme  => paraCekmeIslemindenSonraKalanMiktar  amount : miktar
-    private double calculateCheckingBalanceAfterWithdraw(double amount){
+     private double calculateCheckingBalanceAfterWithdraw(double amount){
         checkingBalance =  checkingBalance - amount;
         return checkingBalance;
     }
