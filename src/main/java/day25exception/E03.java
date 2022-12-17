@@ -24,7 +24,7 @@ public class E03 {
         }catch (NullPointerException e){
             System.out.println("length() methodunda bir problem olustu ");
 
-            e.printStackTrace();
+//            e.printStackTrace();
             //bu methodu kullandiginiz zaman System.out.println(); kullanmaniza gerek yok
         }
 

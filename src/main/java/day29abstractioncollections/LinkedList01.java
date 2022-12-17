@@ -27,6 +27,8 @@ public class LinkedList01 {
         visitors.add("Brad Pitt");
         visitors.add("Tom Hanks");
 
+
+
         System.out.println(visitors);//[Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
 
         //LinkedList'ler ekleme ve silme islemlerinde cok basarili olduklarindan ekleme ve silme ile alakali cok fazla method icerir
