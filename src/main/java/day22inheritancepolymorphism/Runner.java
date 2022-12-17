@@ -16,8 +16,9 @@ public class Runner {
         Mammal cat2 = new Cat();
 
 
-//        Animal cat3 = new Cat();
-//        System.out.println(cat3.a);//12
+        Animal cat3 = new Cat();
+        System.out.println(cat3.a);//12
+        cat3.eat();
 
         //Object olustururken Object'in data type'i Child Class'lardan secilemez
 

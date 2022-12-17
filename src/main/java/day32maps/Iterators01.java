@@ -26,8 +26,8 @@ public class Iterators01 {
         ListIterator<String> itr = myList.listIterator();
 
         while(itr.hasNext()){
-            String el = itr.next();
-            itr.set(el + "!");
+            String eleman = itr.next();
+            itr.set(eleman + "!");
         }
         System.out.println(myList);// [Z!, K!, A!, J!, M!]
     }

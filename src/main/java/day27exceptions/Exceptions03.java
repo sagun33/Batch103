@@ -12,7 +12,7 @@ public class Exceptions03 {
          */
 
     public static void main(String[] args) throws IllegalGradeException {
-        printGrades(60);
+        printGrades(120);
 
         checkNameFormat("Ali");
     }
