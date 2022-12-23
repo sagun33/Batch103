@@ -3,14 +3,32 @@ package atmproject;
 public class Runner {
     public static void main(String[] args) {
 
-        Account01 bankaMatik=new Account01();
-        System.out.println("bankaMatik.bakiyeIlk(5000) = " + bankaMatik.bakiyeIlk(5000));
-
-        System.out.println("bankaMatik.hesabaParaYatirdiktanSonrakiBakiye(3000) = " +
-                "" + bankaMatik.hesabaParaYatirdiktanSonrakiBakiye(3000));
-        bankaMatik.hesaptanParaCektiktenSOnrakiBakiye(2000);
-        System.out.println("bankaMatik.vadesizHesapBakiyesi = " + bankaMatik.vadesizHesapBakiyesi);
-        System.out.println("bankaMatik.faizHesaplama(20) = " + bankaMatik.faizHesaplama(20));
-
+        Options options=new Options();
+        options.login();
     }
 }
+
+//Siz kimsiniz?
+//            Takiminizda bir conflict(problem) yasadiniz, bunu nasil cozersiniz?
+//            requirement(gereksinimler)
+//            size gereksinimler paylasilmasa ne yaparsiniz?
+//            sizin zayif ve guclu yonleriniz nelerdir?
+//            Daha onceki sirketinize ne gibi katkilarda bulundunuz ki bu sirkete de ayni katkilari verebilesiniz?
+//            Yeni teknolojileri ogrenmeye acik misiniz?
+//            Kendinizi Java'da 10 uzerinden kac degerlendirirsiniz?
+//            Core Java'yi biliyorum yani
+//            String manupulations
+//            Data Sructures(Collections ve Maps)
+//            OOP concept
+//            Exceptions
+//            OOP CONCEPT:
+//         Referans tipi           Obje tipi class
+//         Webdriver driver = new ChromeDriver()
+//         Inheritance
+//         Abstraction
+//         Polymorphism
+//         List<String> list = new ArrayList<>();
+//          Inheritance
+//         Abstraction
+//         Polymorphism
+//Collapse
