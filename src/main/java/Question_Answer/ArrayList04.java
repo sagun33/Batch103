@@ -10,7 +10,7 @@ public class ArrayList04 {
     //Example 4: Iki ArrayList'in esit olup olmadigini kontrol eden kodu yaziniz
 //        //Note: Iki ArrayList'in esit olabilmesi icin,elemanlar esit olmali ve ayni elemanlar ayni index'te olmali
     List<Character> m = new java.util.ArrayList<>();
-        m.add('x');
+        m.add('c');
         m.add('y');
         m.add('z');
        //m.add('h');
