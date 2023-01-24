@@ -10,5 +10,6 @@ public class Runner1 {
         System.out.println("bankaMatik.vadesizHesapBakiyesi = " + bankaMatik.vadesizHesapBakiyesi);
         System.out.println("bankaMatik.faizHesaplama(20) = " + bankaMatik.faizHesaplama(20));
 
+
     }
 }
